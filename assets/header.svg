@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="190" viewBox="0 0 860 190">
+<defs>
+<radialGradient id="a" cx="88%" cy="0%" r="70%"><stop offset="0" stop-color="#58a6ff" stop-opacity=".22"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="b" cx="62%" cy="120%" r="50%"><stop offset="0" stop-color="#bc8cff" stop-opacity=".14"/><stop offset="1" stop-color="#bc8cff" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#30363d"/></pattern>
+<linearGradient id="fade" x1="0" x2="1"><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".9"/></linearGradient>
+<mask id="m"><rect width="860" height="190" fill="url(#fade)"/></mask>
+<clipPath id="c"><rect width="860" height="190" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="860" height="190" fill="#0d1117"/>
+<rect width="860" height="190" fill="url(#dots)" mask="url(#m)"/>
+<rect width="860" height="190" fill="url(#a)"/><rect width="860" height="190" fill="url(#b)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="189" rx="14" fill="none" stroke="#30363d"/>
+<text x="40" y="52" style="font:500 12px ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" fill="#8b949e">~/semigundogdu<tspan fill="#58a6ff"> $</tspan> whoami<tspan fill="#58a6ff"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/> ▍</tspan></text>
+<text x="38" y="96" style="font:700 38px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;letter-spacing:-.5px" fill="#e6edf3">Semi Gündoğdu</text>
+<text x="40" y="124" style="font:500 15px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" fill="#58a6ff">Senior Full Stack Engineer<tspan fill="#8b949e">  ·  Product Owner  ·  Indie Game Developer</tspan></text>
+<line x1="40" y1="139" x2="820" y2="139" stroke="#30363d"/>
+<text x="40" y="160" style="font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" fill="#e6edf3">2020<tspan fill="#8b949e" style="font-weight:400">'den beri yazılım</tspan></text><text x="225.08" y="160" style="font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" fill="#e6edf3">4<tspan fill="#8b949e" style="font-weight:400"> oyun geliştirmede</tspan></text><text x="395.6" y="160" style="font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" fill="#e6edf3">FinTech · AI · Games<tspan fill="#8b949e" style="font-weight:400"></tspan></text>
+</svg>
